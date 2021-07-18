@@ -1,0 +1,345 @@
+
+
+/*header*/
+.header {
+	display: flex;
+	justify-content: flex-end;
+	background-color: white;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	font-size: 1.2rem;
+}
+.header_menu {
+	padding: 20px;
+	text-decoration: none;
+	color: black;
+}
+.twitter {
+	height: 35px;
+	width: 35px;
+	padding: 15px;
+}
+.instagram {
+	height: 35px;
+	width: 35px;
+	padding: 15px;
+	margin-right: 15px;
+}
+
+/*section共通*/
+.title {
+	font-size: 30px;
+	text-align: center;
+	letter-spacing: 0.3rem;
+	font-weight: bold;
+	margin-top:-100px;
+	padding-top:200px;
+}
+.plan_ikon {
+	text-align: center;
+}
+.plan_img {
+	height: 120px;
+}
+
+
+/*section concept*/
+.concept {
+	margin-top: 20px;
+	background-image: url(image/concept_image2.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 900px;
+	background-repeat: no-repeat;
+}
+.concept_text {
+	text-align: center;
+	font-size: 3.0rem;
+	line-height: 70px;
+	color: black;
+	font-weight: bold;
+}
+.text1 {
+	padding-top: 210px;
+}
+
+/*section about*/
+.about {
+	display: flex;
+	padding-bottom: 50px;
+	margin-bottom: 100px;
+	padding-left: 20%;
+}
+.self_image {
+	width: 450px;
+	height: 350px;
+	margin-left: 50px;
+	margin-bottom: 50px;
+	margin-right: 30px;
+}
+
+.about_box {
+	width: 100%;
+}
+.about_me2 {
+	font-size: 1.2rem;
+	border: 1px solid #a9a9a9;
+	width: 80px;
+	text-align: center;
+	margin-left: 10px;
+	border-radius: 4em;
+	padding: 0.3em 0.8em;
+}
+.about_me3 {
+	margin-left: 10px;
+}
+
+/*section work*/
+.title_work {
+	background-color: #f0eeee;
+	font-size: 30px;
+	text-align: center;
+	letter-spacing: 0.3rem;
+	font-weight: bold;
+	margin-top:-100px;
+	padding-top: 100px;
+}
+.work {
+	background-color: #f0eeee;
+	padding-bottom: 100px;
+	
+}
+.work_text {
+	line-height: 50px;
+	font-size: 1.2rem;
+	text-align: center;
+	letter-spacing: 0.3rem;
+}
+
+.btntag {
+	text-align: center;
+	padding-top: 30px;
+}
+.btn {
+	border: 1px solid #000;
+	border-radius: 4em;
+	white-space: nowrap;
+	padding: 0.8em 1.5em;
+	cursor: pointer;
+	text-decoration: none;
+	color: black;
+	font-size: 0.9rem;
+}
+.btn:visited {
+	color: black;
+}
+.btn:hover {
+	cursor: pointer;
+	opacity: 0.8;
+	background-color: black;
+	color: white;
+	transition: .4s;
+}
+
+
+
+/*section review*/
+.title_review {
+	font-size: 30px;
+	text-align: center;
+	letter-spacing: 0.3rem;
+	font-weight: bold;
+	margin-top:-100px;
+	padding-top:200px;
+}
+.review {
+	display: flex;
+	justify-content: center;
+	padding-bottom: 100px;
+	
+}
+.review_box {
+	padding: 3%;
+	margin-bottom: 50px;
+}
+
+
+
+
+/*section plan*/
+.title_plan {
+	background-color: #f0eeee;
+	font-size: 30px;
+	text-align: center;
+	letter-spacing: 0.3rem;
+	font-weight: bold;
+	margin-top:-100px;
+	padding-top:100px;
+}
+.plan {
+	display: flex;
+	justify-content: center;
+	background-color: #f0eeee;
+	padding-bottom: 100px;
+}
+.plan_box {
+	background-color: white;
+	margin: 1%;
+	width: 30%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.plan_box_title {
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 1.1rem;
+	text-align: center;
+}
+.plan_text {
+	white-space: normal;
+	text-align: center;
+}
+.plan_box_text {
+	white-space: normal;
+	display: none;
+	text-align: center;
+	width: 60%;
+	padding-left: 20%;
+}
+.readmore_btn_box {
+	text-align: center;
+	border: 1px solid #000;
+	border-radius: 4em;
+	white-space: nowrap;
+	padding: 0.4em 0.8em 0.1em 0.8em;
+	cursor: pointer;
+	text-decoration: none;
+	color: black;
+	font-size: 0.7rem;
+	margin-left: 45%;
+	margin-bottom: 0;
+}
+
+.readmore_btn_box:hover {
+	cursor: pointer;
+	opacity: 0.8;
+	background-color: black;
+	color: white;
+	transition: .4s;
+}
+
+
+
+/*section contact*/
+.title_contact {
+	font-size: 30px;
+	text-align: center;
+	letter-spacing: 0.3rem;
+	font-weight: bold;
+	margin-top:-100px;
+	padding-top:200px;
+}
+.contact {
+	justify-content: center;
+	text-align: center;
+	padding-bottom: 100px;
+}
+.book_btn {
+	border: 1px solid #000;
+	border-radius: 4em;
+	white-space: nowrap;
+	padding: 0.5em 1.5em;
+	cursor: pointer;
+	text-decoration: none;
+	color: black;
+	font-size: 0.9rem;
+}
+.book_btn:visited {
+	color: black;
+}
+.book_btn:hover {
+	cursor: pointer;
+	opacity: 0.8;
+	background-color: black;
+	color: white;
+	transition: .4s;
+}
+
+@media (min-width:1001px) {
+	.form_box {
+		background-color: #f0eeee;
+		margin-top: 2%;
+		margin-right: 25%;
+		margin-left: 25%;
+		padding-top: 10px;
+		padding-bottom: 20px;
+	}
+}
+
+@media (max-width:1000px) {
+	.form_box {
+		background-color: #f0eeee;
+		margin-top: 2%;
+		margin-right: 10%;
+		margin-left: 10%;
+		padding-top: 10px;
+		padding-bottom: 20px;
+	}
+}
+
+#name {
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 3%;
+	width: 60%;
+}
+#email {
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 3%;
+	width: 60%;
+}
+#phone {
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 3%;
+	width: 60%;
+}
+.content {
+	position: relative;
+}
+.content-label {
+	top: 0;
+	left: 0;
+}
+#content {
+	margin-top: 7px;
+	width: 60%;
+	height: 100px;
+}
+.button {
+	margin-top: 15px;
+	justify-content: center;
+}
+button {
+	border: 1px solid #000;
+	border-radius: 4em;
+	white-space: nowrap;
+	padding: 0.5em 1.5em;
+	cursor: pointer;
+	text-decoration: none;
+	color: black;
+	font-size: 0.9rem;
+	background-color: white;
+}
+button:visited {
+	color: black;
+}
+button:hover {
+	cursor: pointer;
+	opacity: 0.8;
+	background-color: black;
+	color: white;
+	transition: .4s;
+}

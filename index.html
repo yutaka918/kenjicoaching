@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kenji's Coahing</title>
+    <link rel="stylesheet" href="style.css">
+	<script type="text/javascript">
+		function showMore(readmore_btn_box) {
+		   var targetId = readmore_btn_box.getAttribute("href").slice(1);          // 表示対象のid名をhref属性値から得る
+		   document.getElementById(targetId).style.display = "block"; // 表示対象の非表示状態を解除
+		   btn.parentNode.style.display = "none";                     // 続きを読むボタンを消す
+		   return false;                                                        // リンクとして機能しないようfalseを返す
+		}
+		</script>
+</head>
+<body>
+	<!--header-->
+	<header class="header">
+		<a href="#prof" class="header_menu profile">Profile</a>
+		<a href="#workout" class="header_menu works">Work</a>
+		<a href="#rev" class="header_menu reviews"> Review</a>
+		<a href="#plan" class="header_menu plans">Plan</a>
+		<a href="#reserve" class="header_menu reserve">Reservation</a>
+		<a href="https://twitter.com/kenji_coaching" target="_blank" rel="noopener noreferrer" class="twitter_link"><img src="image/twitter_icon.png" alt="twitter" class="twitter"></a>
+		<a href="https://www.instagram.com/kenji_coach/" target="_blank" rel="noopener noreferrer" class="instagram_link"><img src="image/instgram_ikon.png" alt="instagram" class="instagram"></a>
+	</header>
+
+	<!--main-->
+	<main>
+		<!--section concept-->
+		<section class="concept">
+			<div class="concept_text">
+				<p class="text1"> コーチングで、<br></p>
+				<p class="text2"> 毎日を、<br></p>
+				<p class="text3">もっと、<br></p>
+				<p class="text4">わくわくさせよう</p>
+			</div>
+		</section>
+
+		<!--section about-->
+		<div class="title" id="prof">
+			Profile
+		</div>
+		<section class="about">
+			<img src="image/self_image2.jpg" class="self_image" alt="自分の画像">
+			<div class="about_box">
+				<p class="about_me2">
+					NAME
+					<p class="about_me3">
+						Kenji Shoto
+					</p>
+				</p>
+				<p class="about_me2">
+					CAREER
+					<p class="about_me3">
+						Coahing 
+					</p>
+				</p>
+				<p class="about_me2">
+					HOBBY
+					<p class="about_me3">
+						Weight Training
+					</p>
+				</p>
+				</div>
+		</section>
+
+
+		<!--section work-->
+		<div class="title_work" id="workout">
+			Work
+		</div>
+		<section class="work">
+			<div class="work_text">
+				理想の人生やキャリアを歩みたいと思っている<br>
+				そんなあなたに<br>
+				コーチングが与える気づきが<br>
+				本質的な変化を起こす<br>
+			</div>
+			<div class="btntag">
+				<a href="#" class="btn">READ MORE</a>
+			</div>
+		</section>
+
+
+		<!--section review-->
+		<div class="title_review" id="rev">
+			Review
+		</div>
+		<section class="review">
+			<div class="review_box">
+				<img src="image/review1.png" alt="顧客1">
+				<p>
+					ここに利用した感想が入ります<br>
+					ここに利用した感想が入ります<br>
+					ここに利用した感想が入ります<br>
+					ここに利用した感想が入ります<br>
+					ここに利用した感想が入ります<br>
+				</p>
+			</div>
+			<div class="review_box">
+				<img src="image/review2.png" alt="顧客2">
+				<p>
+					ここに利用した感想が入ります<br>
+					ここに利用した感想が入ります<br>
+					ここに利用した感想が入ります<br>
+					ここに利用した感想が入ります<br>
+					ここに利用した感想が入ります<br>
+				</p>
+			</div>
+			<div class="review_box">
+				<img src="image/review3.png" alt="顧客3">
+				<p>
+					ここに利用した感想が入ります<br>
+					ここに利用した感想が入ります<br>
+					ここに利用した感想が入ります<br>
+					ここに利用した感想が入ります<br>
+					ここに利用した感想が入ります<br>
+				</p>
+			</div>
+		</section>
+
+
+		<!--section plan-->
+		<div class="title_plan" id="plan">
+			Plan
+		</div>
+		<section class="plan">
+			<div class="plan_box">
+				<div class="plan_ikon">
+					<img src="image/icon_beginner.png" alt="ライフコーチプラン" class="plan_img">
+				</div>
+				<p class="plan_box_title">
+					ライフコーチプラン
+				</p>
+				<p class="plan_text">
+					コーチングを受けるのが初めて、<br>
+					または少しだけおためしで<br>
+					受けてみたいかたにおすすめ<br>
+				</p>		
+				
+				<a href="#readmore1" class="readmore_btn_box" onclick="return showMore(this);">MORE</a>
+				
+				<p id="readmore1" class="plan_box_text">
+					パーソナルコーチングは、私がご提供している中でも、
+					最も人気が高く、効果のあるコーチングサービスのセットです。
+					あなた個人でまたはグループで取り組んでいただく、
+					パーソナルコーチングの面談やセッションは、
+					私の長年にわたるプロコーチとしての活動の中で
+					得た知識や経験、戦略に基づき実施するものです。
+					詳細はお問い合わせいただき、
+					併せてプログラムへの参加お申し込みもぜひなさってください。
+					20,000円/1時間
+				</p>
+			</div>
+
+			<div class="plan_box">
+				<div class="plan_ikon">
+					<img src="image/icon_business.png" alt="マネージメントプラン" class="plan_img">
+				</div>
+				<p class="plan_box_title">
+					マネージメントプラン
+				</p>
+				<p class="plan_text">
+					夢や目標を達成するために<br>
+					自分を変えたいと<br>
+					思っているかたにおすすめ<br>
+				</p>
+				
+				<a href="#readmore2" class="readmore_btn_box" onclick="return showMore(this);">MORE</a>
+				
+				<p id="readmore2" class="plan_box_text">
+					ライフコーチでは、相談者のみなさんのご要望に基づき、有益なアドバイスや支援をご負担にならない料金にてご提供しております。
+					人間関係のマネージメントは、プロコーチに初めて取り組む方や、何度も経験され、内容に通じていらっしゃる方も含め、
+					すべての方にご利用いただける優れたオプションです。
+					さっそくセッションをご予約いただき、さらに一段上の結果を目指しましょう。
+					80,000円/セッション4回
+				</p>
+			</div>
+
+			<div class="plan_box">
+				<div class="plan_ikon">
+					<img src="image/icon_personal.png" alt="パーソナルプラン" class="plan_img">
+				</div>
+				<p class="plan_box_title">
+					パーソナルプラン
+				</p>
+				<p class="plan_text">
+					プロによるゴール設定で<br>
+					人生に結果を<br>
+					もたらしたいかたにおすすめ<br>
+				</p>
+				
+				<a href="#readmore3" class="readmore_btn_box" onclick="return showMore(this);">MORE</a>
+				
+				<p id="readmore3" class="plan_box_text">
+					ライフコーチがご提供するプロによるゴール設定は、他の一般的なコーチングプログラムとは別物です。
+					私を訪ねて来てくださる皆さまの必要とするコーチング内容や経済的な事情はそれぞれ異なります。
+					そうした理由から、プロによるゴール設定に関するサービスの組み合わせにできる限り柔軟性を持たせています。
+					95,000円/セッション4回
+				</p>
+			</div>
+		</section>
+
+		<!--section reservation-->
+		<div class="title_contact" id="reserve">
+			Reservation
+		</div>
+		<section class="contact">
+			<p class="book_text">ご予約お待ちしております。</p>
+			<a href="#" class="book_btn">BOOK NOW</a>
+			<div class="form_box">
+				<form>
+					<p>お問い合わせ</p>
+					<div class="name">
+						<input type="text" id="name" name="name" placeholder="NAME"/>
+					</div>
+					<div class="email">
+						<input type="text" id="email" name="name" placeholder="EMAIL"/>
+					</div>
+					<div class="phone">
+						<input type="text" id="phone" name="name" placeholder="PHONE"/>
+					</div>
+					<div class="content">
+					<div class="contet-label">
+					</div>
+					<textarea id="content" name="content" placeholder="MESSAGE"></textarea>
+					</div>
+					<div class="button">
+					<button type="submit">SEND</button>
+					</div>
+				</form>
+			</div>
+		</section>
+	</main>
+</body>
+</html>
